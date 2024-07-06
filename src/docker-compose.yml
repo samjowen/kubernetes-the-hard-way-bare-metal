@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  jumpbox:
+    image: debian:bookworm
+    command: tail -f /dev/null
+
+  server:
+    image: debian:bookworm
+    command: tail -f /dev/null
+
+  node-0:
+    image: debian:bookworm
+    command: tail -f /dev/null
+    
+  node-1:
+    image: debian:bookworm
+    command: tail -f /dev/null
